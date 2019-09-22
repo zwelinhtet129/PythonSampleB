@@ -32,7 +32,7 @@
 #else:
 #	print("Error")
 
-x = int (input("Enter mark = "))
+'''x = int (input("Enter mark = "))
 if x==100:
 	print("Scholar")
 elif x<100 and x >= 70:
@@ -41,14 +41,11 @@ elif 70 > x >= 50:
 	print("Excellent")
 elif 50 > x >= 40:
 	print("Pass")
-elif 34<x<39:
+elif 34 < x < 39:
 	print("Moderation")
 elif 40 > x and x > 10:
 	print("Fail") 
 elif x>=0 and x<=10:
 	print("Warning")
 else:
-	print("Invaid mark")
-
-
-
+	print("Invaid mark")'''
