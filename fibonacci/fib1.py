@@ -10,8 +10,8 @@
 #f= fib.fib2(500)
 #print(f) 
 
-from fib import  *
-fib(500)
+#from fib import  *
+#fib2(500)
 
-from fibo import fib as fibonacci
+from fib import fibo as fibonacci
 fibonacci(500)
