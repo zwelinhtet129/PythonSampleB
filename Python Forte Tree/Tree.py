@@ -2,9 +2,9 @@ import random
 import turtle
 
 def tree(size, myTurtle):
-	myTurtle.pensize(size / 20)
+	myTurtle.pensize(size / 10)
 
-	if size < random.randint(2,3) * 20:
+	if size < random.randint(2,3) * 10:
 		myTurtle.color("green")
 	else:
 		myTurtle.color("blue")
