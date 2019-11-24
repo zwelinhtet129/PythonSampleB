@@ -7,7 +7,7 @@ def tree(size, myTurtle):
 	if size < random.randint(2,3) * 10:
 		myTurtle.color("green")
 	else:
-		myTurtle.color("blue")
+		myTurtle.color("brown")
 
 	if size > 5:
 		myTurtle.forward(size)
